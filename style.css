@@ -1,0 +1,15 @@
+:root {
+    --bg-color: hsl(49 37% 94%);
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 22;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background: var(--bg-color);
+}
